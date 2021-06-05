@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pokemonList, #detail{
+    background-color: rgb(43, 39, 63);
+    color: rgb(245, 245, 245);
+    padding: 10px 120px;
+    margin: 0 10px;
+}
