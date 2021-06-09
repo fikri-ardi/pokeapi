@@ -26,7 +26,7 @@ function detail(url) {
                 `<img src="${pokemon.sprites.front_default}" class="pokemon">
                 <h3>${pokemon.name}</h3>
                 <p>${pokemon.height}cm</p>
-                <p>${pokemon.weight}kg</p>
+                <p>${pokemon.weight}g</p>
                 <p>${pokemon.moves[0].move.name}</p>
                 `
             )
