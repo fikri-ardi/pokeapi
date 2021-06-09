@@ -2,17 +2,33 @@
     margin: 0;
     padding: 0;
     font-family: 'Plus Jakarta Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
-#pokemonList, #detail{
+#pokemonContainer li{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#detailContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pokemonContainer h2, #detailContainer h2{
     background-color: rgb(43, 39, 63);
     color: rgb(245, 245, 245);
     padding: 10px 120px;
     margin: 0 10px;
+}
+
+.pokemon{
+    width: 110px;
 }
